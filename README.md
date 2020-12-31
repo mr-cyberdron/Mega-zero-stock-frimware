@@ -29,4 +29,6 @@ avrdude -v -p atmega1284p -c arduino -P com6 -b 115200 –p m8 -D -U flash:w:"an
 
 avrdude -p atmega1284p -c arduino -P com6 -b115200 -Ueeprom:r:'printer_eeprom'.eep:i
 
+Support autor: qiwi.com/p/380937122470
+
 
